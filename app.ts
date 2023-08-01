@@ -9,4 +9,5 @@ console.log(peopleAccount)
 const companyAccount: CompanyAccount = new CompanyAccount('DIO', 20)
 companyAccount.deposit(27)
 companyAccount.withdraw(15)
+companyAccount.getLoan(10000);
 console.log(companyAccount)
